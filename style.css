@@ -1,0 +1,110 @@
+body {
+    background-color: #f6185a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-container h1 {
+    font-family: Oswald;
+    padding: 20px;
+    font-size: 63px;
+}
+
+.header-container p {
+    font-family: Lato;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.header-icons-container i {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.card {
+    border-radius: 5px;
+    background-color: white;
+    width: 65%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: dashed 2px black;
+}
+
+.about-me-card {
+    height: 600px;
+}
+
+
+.about-me-inner-container {
+    display: flex;
+}
+
+.about-me-text {
+    padding: 20px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+.about-me-card h2 {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.about-me-card img {
+    margin: 20px;
+    height: 300px;
+}
+
+.projects-card {
+    width: 65%;
+}
+
+.projects-card-inner-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.projects-card-inner-container img {
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+}
+
+.projects-card {
+    height: 400px;
+}
+
+.work-card {
+    height: 500px;
+    text-align: left;
+}
+
+.work-card h2 {
+    padding: 0;
+}
+
+
+
+
+
+.education-card {
+    display: flex;
+}
